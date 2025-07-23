@@ -42,3 +42,23 @@ footer {
   padding: 1em;
   font-size: 0.9em;
 }
+
+.art-gallery {
+  padding: 2em 1em;
+  background-color: #fff4f8;
+}
+.art-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+.art-item {
+  width: 200px;
+  text-align: center;
+}
+.art-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
